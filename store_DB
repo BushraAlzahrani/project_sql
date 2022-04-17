@@ -69,3 +69,6 @@ select * from order_products;
 
 update countries set country_name = 'UAE' where code= '3';
 select * from countries;
+
+delete from products where id='2';
+select * from products;
